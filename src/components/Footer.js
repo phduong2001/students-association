@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
     return (
         <>
-            <a href="#" className="btn btn-outline-primary back-to-top"><i className="fa fa-angle-double-up"></i></a>
+            <Link to="#" className="btn btn-outline-primary back-to-top"><i className="fa fa-angle-double-up"></i></Link>
             <div className="footer container-fluid mt-5 py-5 px-sm-3 px-md-5 text-white">
                 <div className="row pt-5">
                     <div className="col-lg-3 col-md-6 mb-5">
@@ -10,30 +12,30 @@ const Footer = () => {
                         <p><i className="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
                         <p><i className="fa fa-envelope mr-2"></i>info@example.com</p>
                         <div className="d-flex justify-content-start mt-4">
-                            <a className="btn btn-outline-light rounded-circle text-center mr-2 px-0" style={{width: "40px", height: "40px"}} href="#"><i className="fab fa-twitter"></i></a>
-                            <a className="btn btn-outline-light rounded-circle text-center mr-2 px-0" style={{width: "40px", height: "40px"}} href="#"><i className="fab fa-facebook-f"></i></a>
-                            <a className="btn btn-outline-light rounded-circle text-center mr-2 px-0" style={{width: "40px", height: "40px"}} href="#"><i className="fab fa-linkedin-in"></i></a>
-                            <a className="btn btn-outline-light rounded-circle text-center mr-2 px-0" style={{width: "40px", height: "40px"}} href="#"><i className="fab fa-instagram"></i></a>
+                            <Link className="btn btn-outline-light rounded-circle text-center mr-2 px-0" style={{width: "40px", height: "40px"}} to="#"><i className="fab fa-twitter"></i></Link>
+                            <Link className="btn btn-outline-light rounded-circle text-center mr-2 px-0" style={{width: "40px", height: "40px"}} to="#"><i className="fab fa-facebook-f"></i></Link>
+                            <Link className="btn btn-outline-light rounded-circle text-center mr-2 px-0" style={{width: "40px", height: "40px"}} to="#"><i className="fab fa-linkedin-in"></i></Link>
+                            <Link className="btn btn-outline-light rounded-circle text-center mr-2 px-0" style={{width: "40px", height: "40px"}} to="#"><i className="fab fa-instagram"></i></Link>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 mb-5">
                         <h4 className="text-primary mb-4">Quick Links</h4>
                         <div className="d-flex flex-column justify-content-start">
-                            <a className="text-white mb-2" href="#"><i className="fa fa-angle-right mr-2"></i>Home</a>
-                            <a className="text-white mb-2" href="#"><i className="fa fa-angle-right mr-2"></i>About Us</a>
-                            <a className="text-white mb-2" href="#"><i className="fa fa-angle-right mr-2"></i>Our Features</a>
-                            <a className="text-white mb-2" href="#"><i className="fa fa-angle-right mr-2"></i>Classes</a>
-                            <a className="text-white" href="#"><i className="fa fa-angle-right mr-2"></i>Contact Us</a>
+                            <Link className="text-white mb-2" to="#"><i className="fa fa-angle-right mr-2"></i>Home</Link>
+                            <Link className="text-white mb-2" to="#"><i className="fa fa-angle-right mr-2"></i>About Us</Link>
+                            <Link className="text-white mb-2" to="#"><i className="fa fa-angle-right mr-2"></i>Our Features</Link>
+                            <Link className="text-white mb-2" to="#"><i className="fa fa-angle-right mr-2"></i>Classes</Link>
+                            <Link className="text-white" to="#"><i className="fa fa-angle-right mr-2"></i>Contact Us</Link>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 mb-5">
                         <h4 className="text-primary mb-4">Popular Links</h4>
                         <div className="d-flex flex-column justify-content-start">
-                            <a className="text-white mb-2" href="#"><i className="fa fa-angle-right mr-2"></i>Home</a>
-                            <a className="text-white mb-2" href="#"><i className="fa fa-angle-right mr-2"></i>About Us</a>
-                            <a className="text-white mb-2" href="#"><i className="fa fa-angle-right mr-2"></i>Our Features</a>
-                            <a className="text-white mb-2" href="#"><i className="fa fa-angle-right mr-2"></i>Classes</a>
-                            <a className="text-white" href="#"><i className="fa fa-angle-right mr-2"></i>Contact Us</a>
+                            <Link className="text-white mb-2" to="#"><i className="fa fa-angle-right mr-2"></i>Home</Link>
+                            <Link className="text-white mb-2" to="#"><i className="fa fa-angle-right mr-2"></i>About Us</Link>
+                            <Link className="text-white mb-2" to="#"><i className="fa fa-angle-right mr-2"></i>Our Features</Link>
+                            <Link className="text-white mb-2" to="#"><i className="fa fa-angle-right mr-2"></i>Classes</Link>
+                            <Link className="text-white" to="#"><i className="fa fa-angle-right mr-2"></i>Contact Us</Link>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 mb-5">
@@ -46,8 +48,8 @@ const Footer = () => {
                 </div>
                 <div className="container border-top border-dark pt-5">
                     <p className="m-0 text-center text-white">
-                        &copy; <a className="text-white font-weight-bold" href="#">Your Site Name</a>. All Rights Reserved. Designed by
-                        <a className="text-white font-weight-bold" href="https://htmlcodex.com">HTML Codex</a>
+                        &copy; <Link className="text-white font-weight-bold" to="#">Your Site Name</Link>. All Rights Reserved. Designed by
+                        <Link className="text-white font-weight-bold" to="https://htmlcodex.com">HTML Codex</Link>
                     </p>
                 </div>
             </div>
